@@ -22,4 +22,6 @@
     <style name="Theme.Native_getx.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Native_getx.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar" />
 </resources>

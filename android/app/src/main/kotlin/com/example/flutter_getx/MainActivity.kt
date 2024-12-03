@@ -13,12 +13,12 @@ class MainActivity: FlutterActivity() {
         super.configureFlutterEngine(flutterEngine)
         MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL).setMethodCallHandler {
                 call, result ->
-            if (call.method.equals("openMainScreen")) {
-                openMainScreen()
-                result.success(null)
-            } else {
-                result.notImplemented()
-            }
+//            if (call.method.equals("openMainScreen")) {
+//                openMainScreen()
+//                result.success(null)
+//            } else {
+//                result.notImplemented()
+//            }
         }
 
         // Set up flutter method channel
